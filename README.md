@@ -1,6 +1,6 @@
 <h1 align="center"><b>QR GENERATOR NEW 🇱🇰🙈</b></h1>
 
-<p>QR GENERATOR NEW</p>
+<p align="center"><b>QR GENERATOR NEW</b></p>
 
 ### How to install
 
