@@ -1,4 +1,4 @@
-<h style=bold,align=center>QR GENERATOR NEW</h>
+<h align="center"><b>QR GENERATOR NEW 🇱🇰🙈</b></h>
 
 ### How to install
 
