@@ -98,7 +98,7 @@ def sinhala():
         time.sleep(5)
         exit()
 
-    print('''\033[0;46mQR කෝඩ් එකක් බවට පත් කල යුතු දේ ඇතුලත් කරන්න: ''')
+    print('''QR කෝඩ් එකක් බවට පත් කල යුතු දේ ඇතුලත් කරන්න: ''')
     Data = input('''[+]======> ''')
 
     url = "https://qr-generator.qrcode.studio/qr/custom"
