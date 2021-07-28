@@ -1,19 +1,19 @@
-# How to install
+### How to install
 
-$ pkg install python
+> pkg install python
 
-$ pkg install python2
+> pkg install python2
 
-$ pkg install git
+> pkg install git
 
-$ git clone https://github.com/Dark-Knight-Hiruwa/Qr-Generator.git
+> git clone https://github.com/Dark-Knight-Hiruwa/Qr-Generator.git
 
-$ cd Qr-Generator
+> cd Qr-Generator
 
-$ ls
+> ls
 
-$ python install.py
+> python install.py
 
-$ ls
+> ls
 
-$ python run.py 
+> python run.py 
