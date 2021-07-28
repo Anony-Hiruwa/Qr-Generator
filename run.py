@@ -7,9 +7,11 @@ init()
 os.system("clear")
 
 print('''\007
-\033[0;35m  ░█▀▀█ ░█▀▀█ ── ░█▀▄▀█ █▀▀█ █▀▀▄ █─█ █▀▀ █──█ 
-\033[0;35m  ░█─░█ ░█▄▄▀ ▀▀ ░█░█░█ █──█ █──█ █▀▄ █▀▀ █▄▄█ 
-\033[0;35m  ─▀▀█▄ ░█─░█ ── ░█──░█ ▀▀▀▀ ▀──▀ ▀─▀ ▀▀▀ ▄▄▄█\033[5;31mv1.5
+\033[0;35m ___  ____     ____
+ / _ \|  _ \   / ___| ___ _ __
+| | | | |_) | | |  _ / _ \ '_ \
+| |_| |  _ <  | |_| |  __/ | | |
+ \__\_\_| \_\  \____|\___|_| |_|\033[5;31mv1.5
 
 \033[1;36m ==================================================\033[1;m
 \033[1;33m|    [+] By GH0STH4CK3R     [+] QRcodeMonkey Api   |
@@ -22,7 +24,7 @@ print('''\033[0;36m[2] English ''')
 print()
 print("\033[0;35mඔබගේ භාෂාව තෝරන්න: ")
 print("\033[0;35mSelect Your language: ")
-ya = input('''\033[0;37m[+]=====> ''')
+ya = input('''\033[0;37m[+] -> ''')
 print()
 
 def english():
@@ -69,9 +71,9 @@ def english():
         #Save = input("Enter name to save (example.png) : ")
         #Loc = "c:/Users/Dimuth De Zoysa/Desktop/" + Save
         response = req.get(Link)
-        svnm = input("Name to save (sample.png) : ")
+        svnm = input("Name to save (qrgen.png) : ")
         if len(svnm) == 0 :
-            svnm = "Sample_QRmonkey.png"
+            svnm = "Sample_qrgen.png"
 
         file = open(svnm, "wb")
         file.write(response.content)
@@ -133,9 +135,9 @@ def sinhala():
         #Loc = "c:/Users/Dimuth De Zoysa/Desktop/" + Save
         response = req.get(Link)
         print("ඔබගේ QR කේතය සැකසී අවසන්...!")
-        svnm = input("එය සේව් කල යුතු නම ඇතුලත් කරන්න (sample.png) : ")
+        svnm = input("එය සේව් කල යුතු නම ඇතුලත් කරන්න (qrgen.png) : ")
         if len(svnm) == 0 :
-            svnm = "Sample_QRmonkey.png"
+            svnm = "Sample_qrgenpng"
 
         file = open(svnm, "wb")
         file.write(response.content)
